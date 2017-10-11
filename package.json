@@ -1,0 +1,22 @@
+{
+    "name": "ad-requests",
+    "version": "0.0.1",
+    "description": "An AngularJS application that displays the ad-requests in selected time frame.",
+    "license": "MIT",
+    "author": "Ganesh Kumar",
+    "main": "server.js",
+    "scripts": {
+        "postinstall": "bower install",
+        "prestart": "npm install",
+        "start": "node server.js"        
+    },
+    "dependencies": {
+        "bower": "^1.7.9",
+        "express": "^4.14.0"
+    },
+    "engines": {
+        "node": "^4.4.6",
+        "npm": "^2.15.5"
+    },
+    "private": false
+}
