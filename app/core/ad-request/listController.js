@@ -22,7 +22,7 @@
         vm.errMsg = 'Select both Start and End Dates';
         
         vm.dateChanged = function(){
-            vm.adRequests = [];
+            vm.adRequests.splice(0, vm.adRequests.length);
             vm.errMsg = '';
             if(vm.startDate && vm.endDate){
                 var startDate = dateConversionService.toDate(vm.startDate);
